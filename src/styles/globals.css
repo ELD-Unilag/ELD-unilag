@@ -7,3 +7,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "Grotley";
+  src: url('../../public/fonts/GrotleyRegular-mLEWv.otf');
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url('../../public/fonts/Satoshi-Variable.ttf')
+}

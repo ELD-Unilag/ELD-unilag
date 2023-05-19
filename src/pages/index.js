@@ -1,5 +1,5 @@
 
-import Nav from "../components/nav" ;
+import Nav from "../components/header/nav" ;
 
 
 export default function Home() {

@@ -35,7 +35,11 @@ module.exports = {
       // => @media (max-width: 414px) { ... }
       'xss': {'max': '375px'},
       // => @media (max-width: 375px) { ... }
-      }
+      },
+      fontFamily: {
+        grotley: ["Grotley", "sans-serif"],
+        satoshi: ["Satoshi", "sans-serif"]
+      },
     },
   },
   plugins: [],
