@@ -10,9 +10,9 @@
 
 @font-face {
   font-family: "Grotley";
-  src: url('../../public/fonts/GrotleyRegular-mLEWv.otf');
+  src: url('../../public/font/GrotleyRegular-mLEWv.otf');
 }
 @font-face {
   font-family: "Satoshi";
-  src: url('../../public/fonts/Satoshi-Variable.ttf')
+  src: url('../../public/font/Satoshi-Variable.ttf')
 }
