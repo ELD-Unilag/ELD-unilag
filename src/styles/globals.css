@@ -16,3 +16,18 @@
   font-family: "Satoshi";
   src: url('../../public/font/Satoshi-Variable.ttf')
 }
+
+@layer components {
+  .container {
+    @apply max-w-[93%] mx-auto;
+  }
+  .menuItems{
+    @apply cursor-pointer hover:text-navHover;
+  }
+  .menuHover{
+    @apply transition-all ease-in duration-100;
+  }
+  .menuActive{
+    @apply text-navHover line-through;
+  }
+}
