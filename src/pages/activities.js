@@ -1,7 +1,12 @@
 import React from 'react'
 
-export default function Activities() {
+import React from 'react'
+
+const Activities = () => {
   return (
-    <div>Activities</div>
+    <div>activitieA</div>
   )
 }
+
+export default Activities
+

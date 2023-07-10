@@ -1,7 +1,14 @@
 import React from 'react'
 
-export default function Donations() {
+import React from 'react'
+
+const Donations = () => {
   return (
-    <div>Donations</div>
+    <main>Donations</main>
   )
 }
+
+export default Donations;
+
+
+
