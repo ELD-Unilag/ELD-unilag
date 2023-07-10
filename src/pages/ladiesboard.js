@@ -1,7 +1,13 @@
 import React from 'react'
 
-export default function Ladiesboard() {
+import React from 'react'
+
+const Ladiesboard = () => {
   return (
-    <div>ladiesboard</div>
+      <main>ladiesboard</main>  
   )
 }
+
+export default Ladiesboard;
+
+

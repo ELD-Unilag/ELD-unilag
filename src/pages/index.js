@@ -1,12 +1,14 @@
-// import Nav from "../components/header/nav" ;
-import Footer from "@/components/footer";
+import React from 'react'
 
-
-export default function Home() {
+const Home = () => {
   return (
-    <main>
-        {/* <Nav /> */}
-        <Footer/>
+    <main className={``}>
+      <div>
+        <h3>Home</h3>
+      </div>
     </main>
   )
 }
+
+export default Home;
+

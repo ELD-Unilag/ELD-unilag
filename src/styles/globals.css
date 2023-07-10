@@ -17,10 +17,13 @@
   src: url('../../public/font/Satoshi-Variable.ttf')
 }
 
+
 @layer components {
+  /* uttility styles */
   .container {
     @apply max-w-[93%] mx-auto;
   }
+  /* Header */
   .menuItems{
     @apply cursor-pointer hover:text-navHover;
   }
@@ -30,4 +33,6 @@
   .menuActive{
     @apply text-navHover line-through;
   }
+  /* About */
+  
 }

@@ -1,7 +1,12 @@
 import React from 'react'
+import React from 'react'
 
-export default function Resources() {
+const Resources = () => {
   return (
-    <div>Resources</div>
+    <main>Resources</main>
   )
 }
+
+export default Resources;
+
+
