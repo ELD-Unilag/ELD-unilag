@@ -21,6 +21,7 @@ module.exports = {
         eldYellow: '#F5D035',
         eldPink: '#E03550',
         eldBlack: '#000000',
+        eldLightPink: '#ED6B86'
       },
       screens: {
       '2xl': {'max': '1535px'},

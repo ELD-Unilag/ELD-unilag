@@ -14,7 +14,7 @@ const FooterRightContent = () => {
      <div className='flex-1 '>
         <div className='pb-10'>
           {/* ELD email */}
-          <div className='flex items-center justify-end mb-2 bg-red-300 '>
+          <div className='flex items-center justify-end mb-2 '>
             <p className=' text-base font-extralight pr-2 tracking-wide'>
               {eldEmail}  
             </p>
@@ -24,7 +24,7 @@ const FooterRightContent = () => {
           </div>
        
           {/* ELD phone */}
-          <div className='flex items-center justify-end bg-red-300'>
+          <div className='flex items-center justify-end'>
             <p className='text-base  font-extralight pr-2 tracking-wide'>
               {eldPhone} 
             </p>
