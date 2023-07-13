@@ -1,11 +1,12 @@
 import React from 'react'
-
-import React from 'react'
+import Superheroes from '@/components/about/SuperHeroes/Superheroes';
+import OurWorkSection from '@/components/about/OurWork/OurWorkSection';
 
 const About = () => {
   return (
     <main>
-      ABOUT PAGE
+      <Superheroes/>
+      <OurWorkSection/>
     </main>
   )
 }
