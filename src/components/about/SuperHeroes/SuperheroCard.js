@@ -15,10 +15,11 @@ const SuperheroCard = ({item}) => {
                 <div className='absolute z-20 top-0 w-[70%] left-[15%] text-center py-2 px-3 lg:px-6 xl:px-6 bg-white text-black -translate-y-5 rounded-3xl border-[2px] border-black -rotate-2'>
                     <p className='font-semibold tracking-tighter text-xs lg:text-sm' >{item.position}</p>
                 </div>
-                <div className='w-max m-auto text-center pt-8 lg:pt-10'>
+                <div className='w-max m-auto flex flex-col gap-1 lg:gap-2 items-center pt-8 lg:pt-10'>
                     <h3 className='font-semibold xl:text-base lg:text-sm text-xs'>{item.name}</h3>
                     <p className='font-extralight xl:text-base lg:text-sm text-xs'>{item.department}</p>
                     <p className='font-extralight xl:text-base lg:text-sm text-xs'>{item.level}</p>
+                    <Image alt='union' width={20} height={20} src='/images/aboutImages/unionVec.png' className='scale-75 lg:scale-100'/>
                 </div>
             </div>
         </div>
