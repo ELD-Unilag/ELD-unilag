@@ -10,14 +10,14 @@ const OurWorkCard = ({item}) => {
             <Image fill src={item.imgURL} className='absolute top-0 left-0' alt='event image'/>
         </div>
         <div className='w-full h-[45%] rounded-b-3xl px-[25px] py-[15px] border-x-2 border-b-4 border-t-0 border-black relative'>
-            <h3 className='font-grotley text-base lg:text-lg xl:text-2xl  tracking-wide capitalize pb-2'>
+            <h3 className='font-grotley text-base md:text-xl lg:text-lg xl:text-xl  tracking-wide capitalize pb-2'>
                 {item.title}
             </h3>
             <div className='flex pb-2 items-center'>
                 <Image width={25} height={30} alt='calender icon' src='/images/aboutImages/ourworkVec5.png' className='pr-2 -translate-y-[1px]'/>
                 <p className='font-extralight text-xs xl:text-sm 2xl:text-base'>{item.date}</p>
             </div>
-            <p className='pb-5 font-light leading-4 md:leading-5 text-xs md:text-sm xl:text-base'>
+            <p className='pb-5 xl:pb-3 font-light leading-4 md:leading-5 text-xs md:text-base lg:text-sm xl:text-base'>
                 {item.description}  
             </p>
             <button className='eldButton scale-75 -translate-x-4 md:-translate-x-0 md:scale-100 xl:py-3 text-sm pb-3'>

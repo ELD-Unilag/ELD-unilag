@@ -27,7 +27,7 @@ const OurWorkVectors = () => {
         </div>
 
         {/* Learn More */}
-        <div className='absolute bottom-[180px] right-[100px] md:right[250px] scale-75 md:scale-100 flex items-center cursor-pointer'>
+        <div className='absolute bottom-[180px] right-[100px] md:right-[200px] scale-75 md:scale-100 flex items-center cursor-pointer'>
             <p className='font-grotley text-headerPink text-lg pr-5'>Learn More</p>
             <Image 
                 width={50} 
