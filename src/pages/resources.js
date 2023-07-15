@@ -1,0 +1,12 @@
+import React from 'react'
+import React from 'react'
+
+const Resources = () => {
+  return (
+    <main>Resources</main>
+  )
+}
+
+export default Resources;
+
+

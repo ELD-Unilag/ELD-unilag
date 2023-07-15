@@ -14,28 +14,38 @@ module.exports = {
       },
       colors: {
         headerPink: '#DE3054', 
+        primaryBg: '#DE3054',
+        navHover: '#F1E346', 
         eldBlue: '#4857A3',
         eldGreen: '#05C364',
+        eldLightGreen: '#80DDAF',
         eldYellow: '#F5D035',
+        eldLightYellow:'#F1E346',
         eldPink: '#E03550',
         eldBlack: '#000000',
+        eldLightPink: '#ED6B86',
+        eldLightBrown:'#FBCA89'
       },
-      screens: {
-      '2xl': {'max': '1535px'},
-      // => @media (max-width: 1535px) { ... }
-      'xl': {'max': '1279px'},
-      // => @media (max-width: 1279px) { ... }
-      'lg': {'max': '1023px'},
-      // => @media (max-width: 1023px) { ... }
-      'md': {'max': '767px'},
-      // => @media (max-width: 767px) { ... }
-      'sm': {'max': '639px'},
-      // => @media (max-width: 639px) { ... }
-      'xs': {'max' : '414px'},
-      // => @media (max-width: 414px) { ... }
-      'xss': {'max': '375px'},
-      // => @media (max-width: 375px) { ... }
-      }
+      // screens: {
+      // '2xl': {'max': '1535px'},
+      // // => @media (max-width: 1535px) { ... }
+      // 'xl': {'max': '1279px'},
+      // // => @media (max-width: 1279px) { ... }
+      // 'lg': {'max': '1023px'},
+      // // => @media (max-width: 1023px) { ... }
+      // 'md': {'max': '767px'},
+      // // => @media (max-width: 767px) { ... }
+      // 'sm': {'max': '639px'},
+      // // => @media (max-width: 639px) { ... }
+      // 'xs': {'max' : '414px'},
+      // // => @media (max-width: 414px) { ... }
+      // 'xss': {'max': '375px'},
+      // // => @media (max-width: 375px) { ... }
+      // },
+      fontFamily: {
+        grotley: ["Grotley", "sans-serif"],
+        satoshi: ["Satoshi", "sans-serif"]
+      },
     },
   },
   plugins: [],

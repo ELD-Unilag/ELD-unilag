@@ -7,3 +7,55 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "Grotley";
+  src: url('../../public/font/GrotleyRegular-mLEWv.otf');
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url('../../public/font/Satoshi-Variable.ttf')
+}
+
+
+@layer components {
+  /* uttility styles */
+  .container {
+    @apply max-w-[93%] mx-auto;
+  }
+  .eldButton{
+    @apply bg-headerPink border-b-4 border-black w-[150px] py-2 px-1 text-white rounded-3xl cursor-pointer
+  }
+  /* Header */
+  .menuItems{
+    @apply cursor-pointer hover:text-navHover;
+  }
+  .menuHover{
+    @apply transition-all ease-in duration-100;
+  }
+  .menuActive{
+    @apply text-navHover line-through;
+  }
+  /* About */
+  .ourWorkText{
+    @apply tracking-wide font-light text-sm
+  }
+  .blueCard{
+    @apply bg-eldBlue
+  }
+  .lightPinkCard{
+    @apply bg-eldLightPink
+  }
+  .headerPinkCard{
+    @apply bg-headerPink
+  }
+  .lightGreenCard{
+    @apply bg-eldLightGreen
+  }
+  .lightYellowCard{
+    @apply bg-eldLightYellow
+  }
+  .lightBrownCard{
+    @apply bg-eldLightBrown
+  }
+}

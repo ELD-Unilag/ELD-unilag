@@ -1,14 +1,16 @@
+import React from 'react'
+import About from './about';
 
-import Nav from "../components/nav" ;
-
-
-export default function Home() {
+const Home = () => {
   return (
-    <main className={`flex min-h-screen flex-col items-center justify-between p-24`}>
+    <main className={``}>
       <div>
-        <Nav />
-        <h1>Welcome to the Home page</h1>
+        {/* <h3>Home</h3> */}
+        <About/>
       </div>
     </main>
   )
 }
+
+export default Home;
+
