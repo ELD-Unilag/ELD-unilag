@@ -56,7 +56,7 @@ export default function About() {
             </div>
 
             <section className="relative z-50 mt-[200px] grid grid-cols-1 lg:grid-cols-2">
-                <div className="absolute top-1/3 left-[45%]">
+                <div className="absolute hidden lg:block top-1/3 left-[45%]">
                     <img src="/illustration.svg" width={120} height={120} />
                 </div>
                 <RedBox pillText={'what we do'}>
@@ -67,11 +67,13 @@ export default function About() {
                 <div></div>
                 <div></div>
                 
-                <RedBox pillText={'who we are'}>
-                    <p className="w-[367px] h-[144px] mt-10">
-                        Lorem ipsum dolor sit amet consectetur. Est mattis dignissim consectetur nulla platea. Amet faucibus leo aenean ante in nunc laoreet. Massa volutpat tellus in scelerisque libero aliquet nunc. Eu consectetur donec ultricies adipiscing.
-                    </p>
-                </RedBox>
+                <div className="mt-40 lg:mt-0">
+                    <RedBox pillText={'who we are'}>
+                        <p className="w-[367px] h-[144px] mt-10">
+                            Lorem ipsum dolor sit amet consectetur. Est mattis dignissim consectetur nulla platea. Amet faucibus leo aenean ante in nunc laoreet. Massa volutpat tellus in scelerisque libero aliquet nunc. Eu consectetur donec ultricies adipiscing.
+                        </p>
+                    </RedBox>
+                </div> 
             </section>
 
             <section>
