@@ -24,29 +24,29 @@ module.exports = {
         eldPink: '#E03550',
         eldBlack: '#000000',
         eldLightPink: '#ED6B86',
-        eldLightBrown:'#FBCA89'
+        eldLightBrown:'#FBCA89',
+        barBg:'#111111'
       },
-      // screens: {
-      // '2xl': {'max': '1535px'},
-      // // => @media (max-width: 1535px) { ... }
-      // 'xl': {'max': '1279px'},
-      // // => @media (max-width: 1279px) { ... }
-      // 'lg': {'max': '1023px'},
-      // // => @media (max-width: 1023px) { ... }
-      // 'md': {'max': '767px'},
-      // // => @media (max-width: 767px) { ... }
-      // 'sm': {'max': '639px'},
-      // // => @media (max-width: 639px) { ... }
-      // 'xs': {'max' : '414px'},
-      // // => @media (max-width: 414px) { ... }
-      // 'xss': {'max': '375px'},
-      // // => @media (max-width: 375px) { ... }
-      // },
       fontFamily: {
         grotley: ["Grotley", "sans-serif"],
         satoshi: ["Satoshi", "sans-serif"]
       },
+      clipPath: {
+        decagon: "polygon(100% 35%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 20% 90%, 0% 70%, 0% 35%, 20% 10%)"
+      },
+      keyframes: {
+        comeout: {
+          '0%': { right: '-75%'},
+          '100%': {right: '0%'}
+        },
+        goin: {
+          '0%': { right: '0%' },
+          '100%': { right: '7-5%' }
+        }
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-clip-path'),
+  ],
 }

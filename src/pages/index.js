@@ -6,7 +6,7 @@ const Home = () => {
     <main className={``}>
       <div>
         {/* <h3>Home</h3> */}
-        <About/>
+        {/* <About/> */}
       </div>
     </main>
   )
