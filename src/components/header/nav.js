@@ -10,7 +10,7 @@ import { useRouter } from "next/router";
 export default function Nav() {
   const router = useRouter()
   return (
-    <nav className="text-white bg-primaryBg ">
+    <nav className="text-white bg-primaryBg">
       <div className="container flex items-center justify-between py-6">
         <Logo />
         <ul className="flex gap-10 text-sm font-satoshi font-medium">
