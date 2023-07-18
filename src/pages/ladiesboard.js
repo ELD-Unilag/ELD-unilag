@@ -1,8 +1,11 @@
+import Hero from '@/components/LadiesBoard/Hero/Hero';
 import React from 'react'
 
 const Ladiesboard = () => {
   return (
-      <main>ladiesboard</main>  
+      <main>
+        <Hero />
+      </main>  
   )
 }
 

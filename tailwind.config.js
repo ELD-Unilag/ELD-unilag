@@ -25,7 +25,8 @@ module.exports = {
         eldBlack: '#000000',
         eldLightPink: '#ED6B86',
         eldLightBrown:'#FBCA89',
-        barBg:'#111111'
+        barBg:'#111111',
+        navBorder: 'rgb(17, 17, 17);'
       },
       fontFamily: {
         grotley: ["Grotley", "sans-serif"],
@@ -41,8 +42,11 @@ module.exports = {
         },
         goin: {
           '0%': { right: '0%' },
-          '100%': { right: '7-5%' }
+          '100%': { right: '-75%' }
         }
+      },
+      opacity: {
+        '21': '.21'
       }
     },
   },

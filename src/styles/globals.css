@@ -42,6 +42,9 @@
   .polygon{
     @apply h-9 w-10 bg-eldLightYellow border border-black rounded-full;
   }
+  .logo{
+    @apply h-10 w-10;
+  }
   /* About */
   .ourWorkText{
     @apply tracking-wide font-light text-sm
@@ -63,5 +66,21 @@
   }
   .lightBrownCard{
     @apply bg-eldLightBrown
+  }
+  /* Ladies Board */
+  .bottomcloud{
+    @apply w-8 h-5 bottom-9 -right-2.5 lg:w-16 lg:h-10 lg:bottom-20 lg:-right-4;
+  }
+  .bottomcloud2{
+    @apply w-11 h-6 bottom-11 left-4 lg:w-[70px] lg:h-10 lg:bottom-20 lg:left-8 xl:left-16; 
+  }
+  .topcloud{
+    @apply h-6 w-[43px] -top-12 -right-[70px] lg:w-16 lg:h-10 lg:-top-7 lg:-right-56; 
+  }
+  .topcloud2{
+    @apply h-6 w-10 -top-8 -left-14 lg:w-16 lg:h-10 lg:-top-6 lg:-left-[180px];
+  }
+  .herostar{
+    @apply w-8 h-8 -top-6 -right-9 lg:w-10 lg:h-10 lg:-right-10 lg:-top-10;
   }
 }
