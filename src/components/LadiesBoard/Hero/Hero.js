@@ -6,7 +6,7 @@ import star from '../../../../public/images/ladiesboard/hero/star.png'
 
 const Hero = () => {
   return (
-    <section className='bg-primaryBg h-64 w-screen border-b-2 border-barBg relative overflow-hidden lg:h-[350px]'>
+    <section className='bg-primaryBg h-64 w-full border-b-2 border-barBg relative overflow-x-hidden whitespace-nowrap lg:h-[350px]'>
      <div className="flex h-full flex-col items-center justify-center text-white font-satoshi">
       <div className='relative w-fit'>
         <h2 className='font-bold text-4xl mb-2.5 lg:text-7xl'>Ladies Board</h2>
@@ -23,7 +23,7 @@ const Hero = () => {
           style={'herostar'}
         />
       </div>
-       <p className='text-center px-5 text-xs font-normal lg:text-base lg:max-w-[716px]'>Lorem ipsum dolor sit amet consectetur. Est mattis dignissim consectetur nulla platea. Amet faucibus leo aenean ante in nunc laoreet.</p>
+       <p className='text-center px-5 text-xs font-normal lg:text-base lg:max-w-[716px] lg:px-0'>Lorem ipsum dolor sit amet consectetur. Est mattis dignissim consectetur nulla platea. Amet faucibus leo aenean ante in nunc laoreet.</p>
      </div>
      <HeroImage 
         src={cloud1}
@@ -34,6 +34,7 @@ const Hero = () => {
           style={'bottomcloud2'}
      />
     </section>
+ 
   )
 }
 
