@@ -1,7 +1,7 @@
 
 export default function CoolDivider() {
-    return <div className="absolute top-52">
-        <svg className="w-[98.5vw]" viewBox="0 0 1512 392" fill="none" xmlns="http://www.w3.org/2000/svg">
+    return <div className="absolute top-20 md:top-28">
+        <svg className="w-[94vw] sm:w-[97vw] md:w-[98.5vw]" viewBox="0 0 1512 392" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_d_1052_1651)">
                 <mask id="path-1-outside-1_1052_1651" maskUnits="userSpaceOnUse" x="-3" y="-0.700195" width="1518" height="387" fill="black">
                     <rect fill="white" x="-3" y="-0.700195" width="1518" height="387" />
