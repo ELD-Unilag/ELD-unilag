@@ -28,6 +28,16 @@ module.exports = {
         barBg:'#111111',
         navBorder: 'rgb(17, 17, 17)',
         cardOrange: '#FBCA89',
+        cardTextColour: '#4B4B4B',
+        lbCardOrange: '#FBCA89',
+        lbCardBlue: '#4857A3',
+        lbCardWhite: '#FFFFFF',
+        lbCardYellow: '#F1E346',
+        lbCardPink: '#ED6B86',
+        lbCardGreen: '#05C364',
+        lbCardLightOrange: '#FCE1BC',
+        lbCardDark: '#111111',
+        lbCardLightPink: '#E69FAA',
         cardTextColour: '#4B4B4B'
       },
       fontFamily: {
