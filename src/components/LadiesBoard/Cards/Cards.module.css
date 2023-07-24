@@ -1,0 +1,48 @@
+.cardstar{
+    @apply absolute -top-3 -right-2 w-5 h-5;
+  }
+  .cardheader{
+    @apply font-extrabold text-[10px] leading-[10px] lg:text-[12px];
+  }
+  .cardpara{
+    @apply text-[9px] leading-[10px] pt-1 lg:text-[10px] lg:leading-[12px] lg:pt-[4.5px];
+  }
+  .cardcontentbox{
+    @apply border-b border-black px-[15px] lg:px-[17px] lg:border-b-[1.2px];
+  }
+  .cardmodel{
+    @apply relative w-[130px] h-[190px] object-cover rounded-[190px] leading-none lg:w-[150px] lg:h-[219px] ;
+  }
+  .cardstar2{
+    @apply absolute w-5 h-5 right-4 top-4 lg:w-[23px] lg:h-[23px] lg:right-5 lg:top-5;
+  }
+  .cardlogo{
+    @apply relative w-[22px] h-[22px] lg:w-[25px] lg:h-[25px];
+  }
+  .lbCardbgOrange{
+    @apply bg-lbCardOrange;
+  }
+  .lbCardbgWhite{
+    @apply bg-lbCardWhite;
+  }
+  .lbCardbgLightOrange{
+    @apply bg-lbCardLightOrange;
+  }
+  .lbCardbgBlue{
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), #4857A3;
+}
+.lbCardbgYellow{
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), #F1E346;
+}
+.lbCardbgPink{
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), #ED6B86;
+}
+.lbCardbgGreen{
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), #05C364;
+}
+.lbCardbgBlack{
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), #111;
+}
+.lbCardbgLightPink{
+ background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), #E69FAA;
+}
