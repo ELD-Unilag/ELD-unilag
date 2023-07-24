@@ -16,7 +16,9 @@
   font-family: "Satoshi";
   src: url('../../public/font/Satoshi-Variable.ttf')
 }
-
+/* .noise{
+  background
+} */
 
 @layer components {
   /* uttility styles */
@@ -42,6 +44,9 @@
   .polygon{
     @apply h-9 w-10 bg-eldLightYellow border border-black rounded-full;
   }
+  .logo{
+    @apply h-10 w-10;
+  }
   /* About */
   .ourWorkText{
     @apply tracking-wide font-light text-sm
@@ -62,6 +67,43 @@
     @apply bg-eldLightYellow
   }
   .lightBrownCard{
-    @apply bg-eldLightBrown
+    @apply bg-eldLightBrown;
+  }
+  /* Ladies Board */
+  .bottomcloud{
+    @apply w-8 h-5 bottom-9 -right-2.5 lg:w-16 lg:h-10 lg:bottom-20 lg:-right-4;
+  }
+  .bottomcloud2{
+    @apply w-11 h-6 bottom-11 left-4 lg:w-[70px] lg:h-10 lg:bottom-20 lg:left-8 xl:left-16; 
+  }
+  .topcloud{
+    @apply h-6 w-[43px] -top-12 -right-[70px] lg:w-16 lg:h-10 lg:-top-7 lg:-right-56; 
+  }
+  .topcloud2{
+    @apply h-6 w-10 -top-8 -left-14 lg:w-16 lg:h-10 lg:-top-6 lg:-left-[180px];
+  }
+  .herostar{
+    @apply w-8 h-8 -top-6 -right-9 lg:w-10 lg:h-10 lg:-right-10 lg:-top-10;
+  }
+  .cardstar{
+    @apply absolute -top-3 -right-2 w-5 h-5;
+  }
+  .cardheader{
+    @apply font-extrabold text-[10px] leading-[10px];
+  }
+  .cardpara{
+    @apply text-[9px] leading-[10px] pt-1;
+  }
+  .cardcontentbox{
+    @apply border-b border-black px-[15px];
+  }
+  .cardmodel{
+    @apply relative w-[130px] h-[190px] object-cover rounded-[190px] leading-none ;
+  }
+  .cardstar2{
+    @apply absolute w-5 h-5 right-4 top-4;
+  }
+  .cardlogo{
+    @apply relative w-[22px] h-[22px];
   }
 }
