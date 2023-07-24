@@ -20,6 +20,7 @@ export default function Nav() {
         <Logo />
         <MenuItems 
             isOpen = {isOpen}
+            toggleMenu={toggleMenu}
         />
         <MenuBar 
             toggleMenu = {toggleMenu}

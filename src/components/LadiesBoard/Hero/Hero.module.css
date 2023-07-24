@@ -1,0 +1,16 @@
+
+.bottomcloud{
+  @apply absolute w-8 h-5 bottom-9 -right-2.5 lg:w-16 lg:h-10 lg:bottom-20 lg:-right-4;
+}
+.bottomcloud2{
+  @apply absolute w-11 h-6 bottom-11 left-4 lg:w-[70px] lg:h-10 lg:bottom-20 lg:left-8 xl:left-16; 
+}
+.topcloud{
+  @apply absolute h-6 w-[43px] -top-12 -right-[70px] lg:w-16 lg:h-10 lg:-top-7 lg:-right-56; 
+}
+.topcloud2{
+  @apply absolute h-6 w-10 -top-8 -left-14 lg:w-16 lg:h-10 lg:-top-6 lg:-left-[180px];
+}
+.herostar{
+  @apply absolute w-8 h-8 -top-6 -right-9 lg:w-10 lg:h-10 lg:-right-10 lg:-top-10;
+}
