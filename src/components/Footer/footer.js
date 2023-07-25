@@ -17,9 +17,9 @@ const Footer = () => {
 
   return (
    <>
-    <footer  className='relative bg-[url("/images/footerImages/footerBgImage.png")] bg-top bg-cover pb-10 mt-16 pt-28 text-white font-grotley '>
+    <footer  className='relative -z-20 bg-[url("/images/footerImages/footerBgImageSmall.png")] md:bg-[url("/images/footerImages/footerBgImage.png")] bg-top bg-cover pb-10 mt-10 pt-28 text-white font-grotley'>
       <div className='container'>
-        <div className='flex w-full justify-between items-start px-14'>
+        <div className='flex flex-col md:flex-row w-full justify-between items-end px-4 md:px-8 lg:px-10 xl:px-24' >
           <FooterLeftContent />
           {/* Right Side */}
           <FooterRightContent />
