@@ -15,12 +15,11 @@ export default function Nav() {
     setIsOpen(state => !state)
   }
   return (
-    <nav className="text-white bg-primaryBg border-b border-barBg/10">
+    <nav className="text-white bg-primaryBg ">
       <div className="container flex items-center justify-between py-6">
         <Logo />
         <MenuItems 
             isOpen = {isOpen}
-            toggleMenu={toggleMenu}
         />
         <MenuBar 
             toggleMenu = {toggleMenu}
