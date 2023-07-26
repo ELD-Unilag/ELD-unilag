@@ -1,0 +1,9 @@
+.header{
+ @apply font-inter text-[22px] font-bold mb-3;
+}
+.btn{
+ @apply mt-16 w-full bg-primaryBg text-white h-10 flex items-center justify-center font-inter font-bold rounded-md cursor-pointer md:w-[500px] md:mx-auto md:mt-20;
+}
+.Box{
+ @apply border border-primaryBg bg-adminBgprimary font-inter text-eldBlack  font-bold py-3 w-[212px] flex items-center justify-center rounded-md lg:w-[250px] cursor-pointer;
+}

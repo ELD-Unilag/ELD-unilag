@@ -1,0 +1,6 @@
+.box{
+ @apply border border-primaryBg bg-adminBgprimary font-inter text-eldBlack  font-bold py-3 w-[360px] md:w-[400px] flex items-center justify-center rounded-md lg:w-[360px] cursor-pointer;
+}
+.img{
+@apply relative w-6 h-6 cursor-pointer;
+}

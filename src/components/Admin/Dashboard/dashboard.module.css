@@ -1,0 +1,12 @@
+.header{
+ @apply font-inter text-[22px] font-bold mb-3;
+}
+.linkBox{
+ @apply border border-primaryBg bg-adminBgprimary font-inter text-eldBlack  font-bold py-3 w-[212px] flex items-center justify-center rounded-md lg:w-[250px] cursor-pointer;
+}
+.linksContainer{
+ @apply flex items-center gap-y-4 gap-x-6 flex-wrap lg:gap-y-7;
+}
+.subSection{
+ @apply mb-7 lg:mb-12;
+}
