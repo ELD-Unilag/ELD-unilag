@@ -38,11 +38,13 @@ module.exports = {
         lbCardLightOrange: '#FCE1BC',
         lbCardDark: '#111111',
         lbCardLightPink: '#E69FAA',
-        cardTextColour: '#4B4B4B'
+        cardTextColour: '#4B4B4B',
+        adminBgprimary: '#FFEBEF',
       },
       fontFamily: {
         grotley: ["Grotley", "sans-serif"],
-        satoshi: ["Satoshi", "sans-serif"]
+        satoshi: ["Satoshi", "sans-serif"],
+        inter:   ["Inter", "sans-serif"]
       },
       clipPath: {
         decagon: "polygon(100% 35%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 20% 90%, 0% 70%, 0% 35%, 20% 10%)"

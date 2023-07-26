@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,9 +17,6 @@
   font-family: "Satoshi";
   src: url('../../public/font/Satoshi-Variable.ttf')
 }
-/* .noise{
-  background
-} */
 
 @layer components {
   /* uttility styles */
@@ -68,5 +66,8 @@
   }
   .lightBrownCard{
     @apply bg-eldLightBrown;
+  }
+  .adminPagesLayout{
+   @apply w-[88%] mx-auto mt-10 lg:w-full lg:pl-[70px];
   }
 }
