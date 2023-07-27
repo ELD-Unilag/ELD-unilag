@@ -23,7 +23,7 @@ const uploadBtn = ({btnText,}) => {
     <div>
         <input type='file' ref={fileInputRef} onChange={handleFileInputChange} accept='.png,.jpg,.jpeg' className='absolute left-[-9999999px]'/>
         <button onClick={handleButtonClick} className='w-full flex justify-center items-center border border-black rounded py-2'>
-            <Image className='mr-4' width={30} height={30} alt='upload icon' src='/uploadIcon.png'/>
+            <Image className='mr-4' width={20} height={20} alt='upload icon' src='/uploadIcon.png'/>
             <p className='text-sm sm:text-base'>{btnText}</p>
         </button>
     </div>
