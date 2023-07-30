@@ -7,3 +7,6 @@
 .Box{
  @apply border border-primaryBg bg-adminBgprimary font-inter text-eldBlack  font-bold py-3 w-[212px] flex items-center justify-center rounded-md lg:w-[250px] cursor-pointer;
 }
+.smallInput{
+@apply px-3 py-2 w-full md:w-[90%] border-black border rounded
+}
