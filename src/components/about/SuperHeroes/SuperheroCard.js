@@ -5,7 +5,7 @@ const SuperheroCard = ({item}) => {
 
   return (
     <>
-        <div className='w-full sm:w-[80%] md:w-[95%] lg:w-[90%] xl:w-[85%] h-[350px] sm:h-[400px] md:h-[450px] xl:h-[530px]  font-satoshi'>
+        <div className='w-full sm:w-[80%] md:w-[95%] lg:w-[85%] xl:w-[80%] h-[350px] sm:h-[400px] md:h-[450px] xl:h-[530px]  font-satoshi'>
             <div className={item.bgColor +" h-[65%] rounded-t-2xl md:rounded-t-3xl relative"}>
                 <Image alt='superhero' fill src='/images/aboutImages/superheroSample.png' className='absolute z-10 top-0 left-0'/>
                 <Image alt='superhero vector' width={70} height={70} src='/images/aboutImages/superheroesVec3.png' className='absolute top-16 left-5'/>
