@@ -1,10 +1,11 @@
+import HomeWCW from '@/components/Home/HomeWCW';
 import React from 'react'
 
 const Home = () => {
   return (
     <main className={``}>
       <div>
-        <h3>Home</h3>
+        <HomeWCW/>
       </div>
     </main>
   )
