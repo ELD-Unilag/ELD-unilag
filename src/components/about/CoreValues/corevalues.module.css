@@ -1,0 +1,54 @@
+.blackstar{
+@apply absolute w-[25px] h-[25px] -top-8 -right-6 lg:w-9 lg:h-9;
+}
+.blackstar2{
+@apply hidden lg:block absolute w-[25px] h-[25px] top-32 -left-[7.5%] lg:w-9 lg:h-9;
+}
+.sliderControlsDefault{
+ @apply w-[15px] h-[15px] border border-eldBlack rounded-full cursor-pointer;
+}
+.sliderControlsActive{
+ @apply bg-lbCardOrange shadow-controlCircle;
+}
+.cardrow{
+ @apply w-full flex gap-x-5 sm:w-fit sm:mx-auto;
+}
+.humilityCardBg{
+ @apply bg-valuesPink;
+}
+.loveCardBg{
+ @apply bg-valuesGreen;
+}
+.creativityCardBg{
+ @apply bg-valuesBlack;
+}
+.kindCardBg{
+ @apply bg-valuesLightPink;
+}
+.knowledgeCardBg{
+ @apply bg-valuesYellow;
+}
+.strengthCardBg{
+ @apply bg-valuesBlue
+}
+.humilityImg{
+ @apply absolute left-[50%] -translate-x-[50%] bottom-[15px]  w-[61px] h-16 lg:w-[84px] lg:h-[90px];
+}
+.loveImg{
+ @apply  absolute left-[50%] -translate-x-[50%] bottom-[15px] w-[99px] h-16 lg:w-[133px] lg:h-[87px];
+}
+.creativityImg{
+ @apply  absolute left-[50%] -translate-x-[50%] bottom-[15px] w-16 h-16 lg:w-[87px] lg:h-[87px];  
+}
+.strengthImg{
+ @apply absolute left-[50%] -translate-x-[50%] -bottom-[15px] w-14 h-[99px] lg:w-[75px] lg:h-[133px] lg:-bottom-[13px];
+}
+.kindnessImg{
+ @apply absolute left-[50%] -translate-x-[50%] bottom-[15px] w-[79px] h-16 lg:w-[107px] lg:h-[87px];
+}
+.knowledgeImg{
+ @apply absolute left-[50%] -translate-x-[50%] bottom-[15px] w-[77px] h-16 lg:w-[105px] lg:h-[87px];
+}
+.spiral{
+ @apply absolute w-5 h-6 -bottom-0 left-[5%] sm:-bottom-9 lg:w-12 lg:h-[60px] lg:bottom-12 lg:-left-[7.5%];
+}

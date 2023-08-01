@@ -1,0 +1,12 @@
+.illustration{
+ @apply absolute w-[75px] h-[75px] left-[50%] -translate-x-[50%] -bottom-[100px];
+}
+.cloud{
+ @apply absolute w-[43px] h-[25px] right-0 -top-[71px] lg:w-[71px] lg:h-[51px] lg:-right-[390px] lg:-top-[120px];
+}
+.arc{
+ @apply absolute w-16 h-[118px] left-0  -bottom-[130px] lg:-top-24 lg:left-[105%] lg:w-[118px] lg:h-[217px];
+}
+.fan{
+ @apply absolute w-[56px] h-[56px] -bottom-20 left-14 lg:w-[90px] lg:h-[90px] lg:-bottom-6 lg:-left-[268px];
+}
