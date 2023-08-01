@@ -24,7 +24,7 @@ const Hero = () => {
           style={styles.herostar}
         />
       </div>
-       <p className='text-center px-5 text-xs font-normal lg:text-base lg:max-w-[716px] lg:px-0'>Lorem ipsum dolor sit amet consectetur. Est mattis dignissim consectetur nulla platea. Amet faucibus leo aenean ante in nunc laoreet.</p>
+       <p className='text-center w-full text whitespace-normal mx-5 text-xs font-normal lg:text-base lg:max-w-[716px] lg:px-0'>Lorem ipsum dolor sit amet consectetur. Est mattis dignissim consectetur nulla platea. Amet faucibus leo aenean ante in nunc laoreet.</p>
      </div>
      <ResponsiveImage 
         src={cloud1}
