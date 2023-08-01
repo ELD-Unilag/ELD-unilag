@@ -12,7 +12,7 @@ const DeleteBox = () => {
      <div className='w-fit h-fit'>
       <ResponsiveImage 
        src={DeleteIcon}
-       style={styles.img}
+       style={styles.deleteIcon}
       />
      </div>
     </div>

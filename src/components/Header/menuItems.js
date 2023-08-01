@@ -18,7 +18,7 @@ const MenuItems = ({isOpen, toggleMenu}) => {
 
 
   return (
-    <div className={`fixed top-[84px] right-[-75%] w-9/12 h-screen bg-primaryBg z-40 ${ isOpen ? 'animate-[comeout_0.3s_ease-in-out_0.1s_both]' : 'animate-[goin_0.5s_ease-in-out_both]'} lg:static lg:h-fit lg:w-fit`}>
+    <div className={`fixed top-[84px] right-[-100%] w-full h-screen overflow-hidden bg-primaryBg z-[100000] ${ isOpen ? 'animate-[comeout_0.3s_ease-in-out_0.1s_both]' : 'animate-[goin_0.5s_ease-in-out_both]'} lg:static lg:h-fit lg:w-fit`}>
      <ul className={` flex text-xl flex-col  items-center gap-10 w-full mt-24 lg:text-sm font-satoshi font-medium lg:mt-0 lg:flex-row lg:font-bold`}>
       {navList}
     </ul>

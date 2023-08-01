@@ -1,38 +1,38 @@
 import React, { useState } from 'react'
-import {smallInput,btn} from '@/components/Admin/adminGlobalstyles.module.css'
+import {smallInput,btn, label} from '@/components/Admin/adminGlobalstyles.module.css'
 import UploadBtn from '@/components/Utility/AdminUtilities/UploadBtn'
 
 const form = () => {
 
 
   return (
-    <form className='w-[90%] m-auto md:m-0'>
-        <div className=' w-full grid grid-cols-1 md:grid-cols-3 justify-items-start gap-4 mt-8 mb-10'>
+    <form className='w-[100%] m-auto md:m-0 font-inter'>
+        <div className=' w-full grid grid-cols-1 md:grid-cols-3 justify-items-start gap-6 mt-7 mb-10'>
             <div className='w-full md:w-[90%]'>
-                <label>
+                <label className={`${label}`}>
                     Name of the Activity
                     <input className={smallInput} type="text" />
                 </label>
             </div>
 
             <div className='w-full md:w-[90%]'>
-                <label>
+                <label className={`${label}`}>
                     Date of the Activity
                     <input className={smallInput} type="date" />
                 </label>
             </div>
 
             <div className='w-full md:w-[90%]'>
-                <label>
+                <label className={`${label}`}>
                     Time of the activity
                     <input className={smallInput} type="time" />
                 </label>
             </div>
         </div>
 
-        <label>
+        <label className={`${label}`}>
             Summary/Report of the activity
-            <textarea className='w-full md:w-[94%] border border-black rounded-lg mb-8 p-5' cols="30" rows="10"></textarea>
+            <textarea className='w-full md:w-[94%] border border-black rounded-lg mt-1 mb-8 p-5' cols="30" rows="10"></textarea>
         </label>
         <div className='w-full md:w-[94%]'>
             <UploadBtn btnText={'Upload Images of Activity'}/>

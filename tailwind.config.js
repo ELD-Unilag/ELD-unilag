@@ -40,6 +40,15 @@ module.exports = {
         lbCardLightPink: '#E69FAA',
         cardTextColour: '#4B4B4B',
         adminBgprimary: '#FFEBEF',
+        navboderbottom: 'rgba(17, 17, 17, 0.11)',
+        wwboxHeaderBg: '#F1E346',
+        wwboxHeader: '#111111',
+        valuesPink: '#DE3054',
+        valuesGreen: '#05C364',
+        valuesBlack: '#111111',
+        valuesBlue: '#4857A3',
+        valuesLightPink: '#ED6B86',
+        valuesYellow: '#EEC21B',
       },
       fontFamily: {
         grotley: ["Grotley", "sans-serif"],
@@ -51,12 +60,12 @@ module.exports = {
       },
       keyframes: {
         comeout: {
-          '0%': { right: '-75%'},
+          '0%': { right: '-100%'},
           '100%': {right: '0%'}
         },
         goin: {
           '0%': { right: '0%' },
-          '100%': { right: '-75%' }
+          '100%': { right: '-100%' }
         }
       },
       opacity: {
@@ -64,7 +73,15 @@ module.exports = {
       },
       backgroundImage: {
         'card_noise': "url('/images/ladiesboard/card/noise.png')",
-        'cardModelBg': "url('/images/ladiesboard/card/imgBg.svg')"
+        'cardModelBg': "url('/images/ladiesboard/card/imgBg.svg')",
+        'aboutBg': "url('/images/aboutImages/hero/aboutBg.png')",
+        'aboutDesktopBg' : "url('/images/aboutImages/hero/aboutdesktopBg.png')",
+        'illustrateBg1': "url('/images/aboutImages/wwsection/illustrateBg1.png')",
+        'illustrateBg2': "url('/images/aboutImages/wwsection/illustrateBg2.png')",
+      },
+      boxShadow: {
+        'box': '0px 3px 0px 0px #111111',
+        'controlCircle': '1.5px 0px 0px 0px #111111',
       }
     },
   },

@@ -1,5 +1,8 @@
 import Image from 'next/image'
+import globalStyles from '../../Admin/adminGlobalstyles.module.css'
 import React, {useRef} from 'react'
+import ResponsiveImage from '../ResponsiveImage'
+import Upload from '../../../../public/images/admin/upload.svg'
 
 const uploadBtn = ({btnText,}) => {
 
@@ -20,12 +23,13 @@ const uploadBtn = ({btnText,}) => {
   
 
   return (
-    <div>
-        <input type='file' ref={fileInputRef} onChange={handleFileInputChange} accept='.png,.jpg,.jpeg' className='absolute left-[-9999999px]'/>
-        <button onClick={handleButtonClick} className='w-full flex justify-center items-center border border-black rounded py-2'>
-            <Image className='mr-4' width={20} height={20} alt='upload icon' src='/uploadIcon.png'/>
-            <p className='text-sm sm:text-base'>{btnText}</p>
-        </button>
+    <div className='w-full border border-eldBlack rounded-md h-12 flex items-center justify-center' onClick={handleButtonClick}>
+       <ResponsiveImage 
+        src={Upload}
+        style={globalStyles.uploadIcon}
+       />
+        <p className='text-base ml-2 font-inter'>{btnText}</p>
+        <input type='file' ref={fileInputRef}  className='hidden' onChange={handleFileInputChange}/>
     </div>
   )
 }
