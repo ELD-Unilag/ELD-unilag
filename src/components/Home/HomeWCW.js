@@ -6,7 +6,7 @@ import Image from 'next/image'
 const HomeWCW = () => {
   return (
     <div className='my-16 font-satoshi'>
-        <div className='w-full p-5 bg-black text-white '>
+        <div className='w-full p-4 bg-black text-white '>
             <SlidingText bgImageIndex={'3'}/>
         </div>
         <div className='flex flex-col md:flex-row justify-between items-center h-max'>
@@ -15,10 +15,10 @@ const HomeWCW = () => {
         </div>
         <div className='flex justify-between relative'>
 
-            <div className='bg-[#FCF7F0] p-5 flex-1 w-[50%]'>
+            <div className='bg-[#FCF7F0] p-4 flex-1 w-[50%]'>
               <SlidingText  bgImageIndex={'5'}/>
             </div>
-            <div className='bg-eldLightBrown p-5 flex-1 w-[50%]'>
+            <div className='bg-eldLightBrown p-4 flex-1 w-[50%]'>
               <SlidingText  bgImageIndex={'1'}/>
             </div>
 
