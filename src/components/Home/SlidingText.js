@@ -1,23 +1,23 @@
-import Image from 'next/image'
+
 import React from 'react'
 import ScrolllingText from './ScrolllingText'
 
-const SlidingText = () => {
+const SlidingText = ({bgImageIndex}) => {
   return (
     <div className='overflow-hidden flex whitespace-nowrap w-full'>
         <div className='scrolling-text text flex'>
-            <ScrolllingText/>
-            <ScrolllingText/>
-            <ScrolllingText/>
-            <ScrolllingText/>
-            <ScrolllingText/>
+            <ScrolllingText bgImageIndex={bgImageIndex}/>
+            <ScrolllingText bgImageIndex={bgImageIndex}/>
+            <ScrolllingText bgImageIndex={bgImageIndex}/>
+            <ScrolllingText bgImageIndex={bgImageIndex}/>
+            <ScrolllingText bgImageIndex={bgImageIndex}/>
         </div>
         <div className='scrolling-text text flex'>
-            <ScrolllingText/>
-            <ScrolllingText/>
-            <ScrolllingText/>
-            <ScrolllingText/>
-            <ScrolllingText/>
+            <ScrolllingText bgImageIndex={bgImageIndex}/>
+            <ScrolllingText bgImageIndex={bgImageIndex}/>
+            <ScrolllingText bgImageIndex={bgImageIndex}/>
+            <ScrolllingText bgImageIndex={bgImageIndex}/>
+            <ScrolllingText bgImageIndex={bgImageIndex}/>
         </div>
     </div>
   )

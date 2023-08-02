@@ -17,7 +17,7 @@ const HomeWCWLeftContent = () => {
         </div>
         <div className='w-[250px] flex justify-between items-center'>
             {socialLinks.map((link)=>{
-            return <HomeSocialIcon props={link}/>
+            return <HomeSocialIcon key={link.imageUrl} props={link}/>
             })}
         </div>
     </div>
