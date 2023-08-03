@@ -26,6 +26,25 @@
   .eldButton{
     @apply bg-headerPink border-b-4 border-black w-[150px] py-2 px-1 text-white rounded-3xl cursor-pointer
   }
+
+  /* Home */
+  .scrolling-text div{
+    margin: 0 40px;
+  }
+
+  .text{
+    animation: animate_text 30s linear infinite;
+  }
+
+  @keyframes animate_text {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-100%, 0, 0);
+    }
+}
+
   /* Header */
   .menuItems{
     @apply cursor-pointer hover:text-navHover;

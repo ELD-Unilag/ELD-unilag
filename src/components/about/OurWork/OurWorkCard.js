@@ -5,7 +5,7 @@ const OurWorkCard = ({item}) => {
 
 
   return (
-    <div className={item.bgColor + " w-[80%] lg:w-[95%] h-[500px] rounded-3xl font-satoshi m-auto"}>
+    <div className={item.bgColor + " w-[95%] lg:w-[95%] h-[500px] rounded-3xl font-satoshi m-auto"}>
         <div className='w-full h-[55%] rounded-t-3xl bg-black relative'>
             <Image fill src={item.imgURL} className='absolute top-0 left-0' alt='event image'/>
         </div>
