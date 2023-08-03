@@ -1,5 +1,5 @@
 import React from 'react'
-import GoBackBtn from '@/components/Utility/GoBackBtn/GoBackBtn'
+import GoBackBtn from '@/components/Utility/AdminUtilities/GoBackBtn/GoBackBtn'
 
 const addwcw = () => {
   return (
