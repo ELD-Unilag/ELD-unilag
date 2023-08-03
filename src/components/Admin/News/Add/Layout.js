@@ -6,7 +6,9 @@ const Layout = () => {
   return (
     <section>
      <h3 className={`${globalStyles.header}`}>Add News</h3>
-     <NewsForm/>
+     <NewsForm
+      btnName={'Add News'}
+     />
     </section>
   )
 }

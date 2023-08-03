@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {smallInput,btn, label} from '@/components/Admin/adminGlobalstyles.module.css'
 import UploadBtn from '@/components/Utility/AdminUtilities/UploadBtn'
 
-const form = () => {
+const form = ({btnName}) => {
 
 
   return (
@@ -11,34 +11,34 @@ const form = () => {
             <div className='w-full md:w-[90%]'>
                 <label className={`${label}`}>
                     Name of the Activity
-                    <input className={smallInput} type="text" />
+                    <input className={smallInput} type="text" required />
                 </label>
             </div>
 
             <div className='w-full md:w-[90%]'>
                 <label className={`${label}`}>
                     Date of the Activity
-                    <input className={smallInput} type="date" />
+                    <input className={smallInput} type="date"  required/>
                 </label>
             </div>
 
             <div className='w-full md:w-[90%]'>
                 <label className={`${label}`}>
                     Time of the activity
-                    <input className={smallInput} type="time" />
+                    <input className={smallInput} type="time" required/>
                 </label>
             </div>
         </div>
 
         <label className={`${label}`}>
             Summary/Report of the activity
-            <textarea className='w-full md:w-[94%] border border-black rounded-lg mt-1 mb-8 p-5' cols="30" rows="10"></textarea>
+            <textarea className='w-full md:w-[94%] border border-black rounded-lg mt-1 mb-8 p-5' cols="30" rows="10" required></textarea>
         </label>
         <div className='w-full md:w-[94%]'>
             <UploadBtn btnText={'Upload Images of Activity'}/>
         </div>
         <button type='submit' className={btn + ' mb-16'}>
-            Add Activity
+            {btnName}
         </button>
     </form>
   )

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {smallInput,btn, label} from '@/components/Admin/adminGlobalstyles.module.css'
 import UploadBtn from '@/components/Utility/AdminUtilities/UploadBtn'
 
-const form = () => {
+const Newsform = ({btnName}) => {
 
 
   return (
@@ -11,7 +11,7 @@ const form = () => {
             <div className='w-full md:w-[90%]'>
                 <label className={label}>
                     Headline
-                    <input className={smallInput} type="text" />
+                    <input className={smallInput} type="text" required />
                 </label>
             </div>
         </div>
@@ -21,13 +21,13 @@ const form = () => {
         </div>
         <label className={label}>
             <p>Body Text</p>
-            <textarea className='w-full md:w-[94%] border border-black rounded-lg p-5 mt-1' cols="30" rows="10"></textarea>
+            <textarea className='w-full md:w-[94%] border border-black rounded-lg p-5 mt-1' cols="30" rows="10" required></textarea>
         </label>
         <button type='submit' className={btn + ' mb-16'}>
-            Add Activity
+            {btnName}
         </button>
     </form>
   )
 }
 
-export default form
+export default Newsform
