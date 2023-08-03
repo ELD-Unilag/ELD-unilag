@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {smallInput,btn, label} from '@/components/Admin/adminGlobalstyles.module.css'
 import UploadImageBtn from '@/components/Utility/AdminUtilities/UploadBtn'
 
-const form = () => {
+const form = ({btnName}) => {
 
 
   return (
@@ -11,34 +11,34 @@ const form = () => {
             <div className='w-full md:w-[90%]'>
                 <label className={`${label}`}>
                     Name of Donation
-                    <input className={smallInput} type="text" />
+                    <input className={smallInput} type="text" required />
                 </label>
             </div>
 
             <div className='w-full md:w-[90%]'>
                 <label className={`${label}`}>
                     Amount Needed (₦)
-                    <input className={smallInput} type="number" defaultValue={1000} step={1000} />
+                    <input className={smallInput} type="number" defaultValue={1000} step={1000} required />
                 </label>
             </div>
 
             <div className='w-full md:w-[90%]'>
                 <label className={`${label}`}>
                     Amount Recieved (₦)
-                    <input className={smallInput} type="number" defaultValue={1000} step={1000} />
+                    <input className={smallInput} type="number" defaultValue={1000} step={1000} required/>
                 </label>
             </div>
         </div>
 
         <label className={`${label}`}>
             About Donation
-            <textarea className='w-full md:w-[94%] border border-black rounded-lg mb-8 p-5 mt-1' cols="30" rows="5"></textarea>
+            <textarea className='w-full md:w-[94%] border border-black rounded-lg mb-8 p-5 mt-1' cols="30" rows="5" required></textarea>
         </label>
         <div className='w-full md:w-[94%]'>
             <UploadImageBtn btnText={'Upload Image'}/>
         </div>
         <button type='submit' className={btn + ' mb-16'}>
-            Add Donation
+            { btnName }
         </button>
     </form>
   )

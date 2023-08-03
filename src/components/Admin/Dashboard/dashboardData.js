@@ -6,7 +6,7 @@ const data = {
   },
   {
    name: 'Edit Activity',
-   routename: '/'
+   routename: '/admin/editactivity'
   },
   {
    name: 'Delete Activity',
@@ -40,7 +40,7 @@ const data = {
   },
   {
    name: 'Edit Donations',
-   routename: '/'
+   routename: '/admin/editdonation'
   },
   {
    name: 'Delete Donations',
@@ -54,7 +54,7 @@ const data = {
   },
   {
    name: 'Edit News',
-   routename: 'home'
+   routename: '/admin/editnews'
   },
   {
    name: 'Delete News',

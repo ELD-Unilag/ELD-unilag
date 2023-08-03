@@ -1,5 +1,5 @@
 import React from 'react'
-import GoBackBtn from '@/components/Utility/GoBackBtn/GoBackBtn'
+import GoBackBtn from '@/components/Utility/AdminUtilities/GoBackBtn/GoBackBtn'
 import Layout from '@/components/Admin/Donation/Add/Layout'
 
 const adddonation = () => {

@@ -7,6 +7,9 @@
 .Box{
  @apply border border-primaryBg bg-adminBgprimary font-inter text-eldBlack  font-bold py-3 w-[212px] flex items-center justify-center rounded-md lg:w-[250px] cursor-pointer;
 }
+.ListBox{
+ @apply border border-primaryBg bg-adminBgprimary font-inter text-eldBlack  font-bold py-3 w-full sm:w-fit sm:min-w-[414px] px-3 flex items-center justify-center rounded-md  cursor-pointer mb-6;
+}
 .smallInput{
 @apply px-3 py-2 w-full md:w-[90%] border-black border rounded mt-1;
 }
