@@ -1,0 +1,19 @@
+.halfcircle{
+@apply absolute w-11 h-[22px] rotate-[20deg] -right-6 lg:right-9 top-[93px] lg:w-[100px] lg:h-[92px] lg:rotate-[-0deg];
+}
+.bigStar{
+@apply absolute h-5 w-5  top-0 -left-7 lg:h-[35px] lg:w-[35px] lg:-left-20;
+}
+.smallStar{
+@apply absolute h-3.5 w-3.5 -right-10 -top-1 lg:w-[34px] lg:h-[34px] lg:-right-24;
+}
+/* add border width and radius when going preparing for production */
+.galleryImage{
+ @apply relative w-40 h-[100px] mr-4 lg:h-[200px] lg:w-[350px] lg:mr-6;
+}
+.animate{
+ @apply animate-scroll-infinte;
+}
+.animateReverse{
+ @apply animate-scroll-infinte-reverse
+}

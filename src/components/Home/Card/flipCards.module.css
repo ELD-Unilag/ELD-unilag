@@ -1,0 +1,33 @@
+.logo{
+@apply relative h-[50px] w-[50px] lg:h-[60px] lg:w-[60px];
+}
+.hand{
+@apply relative w-16 h-[120px] lg:w-[77px] lg:h-[144px] mb-5 mx-auto;
+}
+.handCardBg2{
+ @apply bg-lbCardYellow;
+}
+.handCardBg{
+ @apply bg-valuesLightPink;
+}
+.BlackImageText{
+@apply text-eldBlack;
+}
+.WhiteImageText{
+ @apply text-white;
+}
+.gear{
+ @apply relative mx-auto mb-5 w-[120px] h-[119px] lg:w-[144px] lg:h-[143px];
+}
+.gearCardBg{
+ @apply bg-valuesBlue;
+}
+.cross{
+ @apply relative mx-auto mb-5 w-[146px] h-[117px] lg:w-[175px] lg:h-[140px];
+}
+.crossCardBg{
+ @apply bg-valuesGreen;
+}
+.back{
+ @apply absolute w-[30px] h-[30px] -top-3 -right-3;
+}

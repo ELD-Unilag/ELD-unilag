@@ -1,3 +1,5 @@
+import FlipCards from '@/components/Home/Card/Cards';
+import Gallery from '@/components/Home/Gallery/Gallery';
 import HomeWCW from '@/components/Home/HomeWCW';
 import React from 'react'
 
@@ -7,6 +9,8 @@ const Home = () => {
       <div>
         <HomeWCW/>
       </div>
+      <FlipCards />
+      <Gallery />
     </main>
   )
 }
