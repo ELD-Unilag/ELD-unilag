@@ -20,7 +20,7 @@ export default function Nav() {
       : (document.body.style.overflow = 'auto');
   }, [isOpen])
   return (
-    <nav className={`text-white bg-primaryBg ${isOpen ? 'sticky top-0 left-0 z-20  ': ''} `}>
+    <nav className={`text-white bg-primaryBg ${isOpen ? 'sticky top-0 left-0 z-20  ': ''} border-b-[2px] border-navboderbottom`}>
       <div className="container flex items-center justify-between py-6">
         <Logo />
         <MenuItems 

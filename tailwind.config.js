@@ -66,7 +66,19 @@ module.exports = {
         goin: {
           '0%': { right: '0%' },
           '100%': { right: '-100%' }
-        }
+        },
+        scrollImages: {
+          '0%': { transform: `translateX(0%)`},
+          '100%': { transform: 'translateX(-50%)'}
+        },
+        scrollImagesReverse: {
+          '0%': { transform: `translateX(-50%)`},
+          '100%': { transform: 'translateX(0%)'}
+        },
+      },
+      animation: {
+        'scroll-infinte': 'scrollImages 15s linear infinite',
+        'scroll-infinte-reverse': 'scrollImagesReverse 15s linear infinite',
       },
       opacity: {
         '21': '.21'
@@ -78,6 +90,7 @@ module.exports = {
         'aboutDesktopBg' : "url('/images/aboutImages/hero/aboutdesktopBg.png')",
         'illustrateBg1': "url('/images/aboutImages/wwsection/illustrateBg1.png')",
         'illustrateBg2': "url('/images/aboutImages/wwsection/illustrateBg2.png')",
+        "homeCardNoise" : "url('/images/homeImages/flipcards/noise.png')"
       },
       boxShadow: {
         'box': '0px 3px 0px 0px #111111',

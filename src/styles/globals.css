@@ -18,6 +18,12 @@
   src: url('../../public/font/Satoshi-Variable.ttf')
 }
 
+@layer utilities {
+  .pause {
+    animation-play-state: paused;
+  }
+}
+
 @layer components {
   /* uttility styles */
   .container {
