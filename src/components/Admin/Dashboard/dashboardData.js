@@ -15,12 +15,8 @@ const data = {
  ],
  wcw: [
   {
-   name: 'Add WCW',
-   routename: '/admin/addwcw'
-  },
-  {
    name: 'Edit WCW',
-   routename: 'home'
+   routename: '/admin/editwcw'
   },
  ],
  gallery: [

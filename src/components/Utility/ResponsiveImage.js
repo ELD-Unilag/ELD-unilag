@@ -4,7 +4,7 @@ import Image from 'next/image'
 const ResponsiveImage = (props) => {
   return (
    <div className={`${props.style}`}>
-   <Image fill={true} alt='social icon' className='object-fill cursor-pointer' src={props.src}/>
+   <Image fill={true} alt={props.alt} className={`'object-fill  ${props.addon ? props.addon : ''}`} src={props.src}/>
   </div>
   )
 }

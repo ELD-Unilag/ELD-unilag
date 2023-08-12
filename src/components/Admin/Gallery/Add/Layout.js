@@ -26,6 +26,8 @@ const Layout = () => {
             src={imgUrl}
             key={idx}
             style={styles.img}
+            alt='image'
+            addon={styles.imgExtra}
           />
   })
   return (
@@ -36,6 +38,7 @@ const Layout = () => {
         <ResponsiveImage 
           src={Upload}
           style={globalStyles.uploadIcon}
+          alt='uploadIcon'
         />
         <p className='ml-2 font-inter font-normal'>Upload Pictures of WCW</p>
       </div>

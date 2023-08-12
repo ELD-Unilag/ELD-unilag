@@ -27,6 +27,7 @@ const uploadBtn = ({btnText,}) => {
        <ResponsiveImage 
         src={Upload}
         style={globalStyles.uploadIcon}
+        alt='upload'
        />
         <p className='text-base ml-2 font-inter'>{btnText}</p>
         <input type='file' ref={fileInputRef}  className='hidden' onChange={handleFileInputChange}/>

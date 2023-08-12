@@ -31,3 +31,6 @@
 .back{
  @apply absolute w-[30px] h-[30px] -top-3 -right-3;
 }
+.backExtra{
+@apply cursor-pointer;
+}

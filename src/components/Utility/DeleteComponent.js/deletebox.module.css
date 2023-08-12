@@ -7,6 +7,9 @@
 .img{
 @apply relative w-[90px] h-[70px]  lg:w-44 lg:h-40;
 }
+.imgExtra{
+@apply rounded-md;
+}
 .deletebtn{
 @apply mt-16 w-full bg-primaryBg text-white h-10 flex items-center justify-center font-inter font-bold rounded-md cursor-pointer md:w-[500px] md:mx-auto md:mt-20 lg:mx-0 lg:mt-14 lg:w-[380px];
 }

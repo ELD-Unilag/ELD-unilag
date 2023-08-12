@@ -10,6 +10,7 @@ const ValuesCard = (props) => {
       <ResponsiveImage 
         src={props.img}
         style={props.imgstyle}
+        alt='values-img'
       />
     </div>
   )

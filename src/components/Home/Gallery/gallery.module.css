@@ -7,9 +7,11 @@
 .smallStar{
 @apply absolute h-3.5 w-3.5 -right-10 -top-1 lg:w-[34px] lg:h-[34px] lg:-right-24;
 }
-/* add border width and radius when going preparing for production */
 .galleryImage{
- @apply relative w-40 h-[100px] mr-4 lg:h-[200px] lg:w-[350px] lg:mr-6;
+ @apply relative w-40 h-[100px] mr-4 lg:h-[200px] lg:w-[350px] lg:mr-6 rounded-[15px];
+}
+.galleryImageExtras{
+@apply rounded-[15px];
 }
 .animate{
  @apply animate-scroll-infinte;

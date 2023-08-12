@@ -10,11 +10,14 @@ const DeletePicBox = () => {
      <ResponsiveImage 
       src={Pic}
       style={styles.img}
+      alt='pic'
+      addon={styles.imgExtra}
      />
      <div className='w-fit mx-auto mt-3'>
       <ResponsiveImage 
        src={DeleteIcon}
        style={styles.deleteIcon}
+       alt='delete_Icon'
       />
      </div>
     </div>
