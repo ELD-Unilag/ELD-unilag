@@ -88,10 +88,12 @@ const onTouchEnd = () => {
       <ResponsiveImage 
        src={BlackStar}
        style={styles.blackstar}
+       alt='blackstar'
       />
       <ResponsiveImage 
        src={BlackStar}
        style={styles.blackstar2}
+       alt='blackstar2'
       />
      </div>
      <div className='mt-12 w-full  overflow-hidden'>
@@ -107,6 +109,7 @@ const onTouchEnd = () => {
       <ResponsiveImage 
           src={spiral}
           style={styles.spiral}
+          alt='spiral'
         />
      </div>
      <div className="mt-8 flex items-center justify-center gap-2 sm:hidden">

@@ -13,6 +13,9 @@
   .cardmodel{
     @apply relative w-[130px] h-[190px] object-cover rounded-[190px] leading-none lg:w-[150px] lg:h-[219px] ;
   }
+  .modelImg{
+  @apply rounded-[190px] lg:rounded-[219px] cursor-pointer;
+  }
   .cardstar2{
     @apply absolute w-5 h-5 right-4 top-4 lg:w-[23px] lg:h-[23px] lg:right-5 lg:top-5;
   }

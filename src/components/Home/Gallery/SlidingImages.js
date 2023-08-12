@@ -14,60 +14,88 @@ const SlidingImages = (props) => {
        <ResponsiveImage 
         src={image1}
         style={styles.galleryImage}
+        alt='galleryImage'
+        addon={styles.galleryImageExtras}
        />
        <ResponsiveImage 
         src={image2}
         style={styles.galleryImage}
+        alt='galleryImage'
+        addon={styles.galleryImageExtras}
        />
        <ResponsiveImage 
         src={image3}
         style={styles.galleryImage}
+        alt='galleryImage'
+        addon={styles.galleryImageExtras}
        />
        <ResponsiveImage 
         src={image4}
         style={styles.galleryImage}
+        alt='galleryImage'
+        addon={styles.galleryImageExtras}
        />
        <ResponsiveImage 
         src={image2}
         style={styles.galleryImage}
+        alt='galleryImage'
+        addon={styles.galleryImageExtras}
        />
        <ResponsiveImage 
         src={image3}
         style={styles.galleryImage}
+        alt='galleryImage'
+        addon={styles.galleryImageExtras}
        />
        <ResponsiveImage 
         src={image4}
         style={styles.galleryImage}
+        alt='galleryImage'
+        addon={styles.galleryImageExtras}
        />
       </div>
       <div className='flex w-full'>
        <ResponsiveImage 
         src={image1}
         style={styles.galleryImage}
+        alt='galleryImage'
+        addon={styles.galleryImageExtras}
        />
        <ResponsiveImage 
         src={image2}
         style={styles.galleryImage}
+        alt='galleryImage'
+        addon={styles.galleryImageExtras}
        />
        <ResponsiveImage 
         src={image3}
         style={styles.galleryImage}
+        alt='galleryImage'
+        addon={styles.galleryImageExtras}
        />
        <ResponsiveImage 
         src={image4}
         style={styles.galleryImage}
+        alt='galleryImage'
+        addon={styles.galleryImageExtras}
        />
        <ResponsiveImage 
         src={image2}
         style={styles.galleryImage}
+        alt='galleryImage'
+        addon={styles.galleryImageExtras}
        />
        <ResponsiveImage 
         src={image3}
         style={styles.galleryImage}
+        alt='galleryImage'
+        addon={styles.galleryImageExtras}
        />
        <ResponsiveImage 
         src={image4}
         style={styles.galleryImage}
+        alt='galleryImage'
+        addon={styles.galleryImageExtras}
        />
       </div>
      </div>

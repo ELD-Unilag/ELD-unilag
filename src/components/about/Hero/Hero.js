@@ -19,6 +19,7 @@ const Hero = () => {
           <ResponsiveImage 
             src={Qoute}
             style={styles.qoute}
+            alt='qoute'
           />
           </div>
           <p className='text-xs leading-4 mt-3 lg:mt-4 lg:text-lg'>
@@ -30,15 +31,18 @@ const Hero = () => {
           <ResponsiveImage 
             src={Logo}
             style={styles.logo}
+            alt='logo'
           />
           <ResponsiveImage 
             src={Qmark}
             style={styles.qmark}
+            alt='questionmark'
           />
           </div>
           <ResponsiveImage 
           src={spiral}
           style={styles.spiral}
+          alt='spiral'
           />
         </div>        
        </div> 
@@ -46,10 +50,12 @@ const Hero = () => {
        <ResponsiveImage 
         src={Bush}
         style={styles.bushImg}
+        alt='bush'
        />
        <ResponsiveImage 
         src={BushDesktop}
         style={styles.bushImgDesktop}
+        alt='bushImgDesktop'
        />
       </div>
     </section>

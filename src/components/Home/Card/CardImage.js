@@ -10,6 +10,7 @@ const CardImage = ({bg, src, titleColor, title, imageStyle}) => {
       <ResponsiveImage 
        src={src}
        style={imageStyle}
+       alt={title}
       />
       <h3 className={`tracking-[2px] text-[10px] font-semibold font-satoshi ${titleColor} uppercase cursor-pointer lg:text-sm lg:font-medium`}>{title}</h3>
      </div>

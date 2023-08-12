@@ -1,6 +1,5 @@
 import React from 'react'
 import Box from './Box'
-import illustration from '../../../../public/images/aboutImages/wwsection/illustration.png'
 import cloud from '../../../../public/images/aboutImages/wwsection/cloud.svg';
 import arc from '../../../../public/images/aboutImages/wwsection/arc.svg'
 import arcLarge from '../../../../public/images/aboutImages/wwsection/arcLarge.svg'
@@ -39,18 +38,16 @@ const WWLayout = () => {
         header={data[0].header}
         para={data[0].para}
       />
-      {/* <ResponsiveImage 
-       src={illustration}
-       style={styles.illustration}
-      /> */}
       <Illustration />
       <ResponsiveImage 
        src={cloud}
        style={styles.cloud}
+       alt='cloud'
       />
       <ResponsiveImage 
        src={arcImg}
        style={styles.arc}
+       alt='arc'
       />
      </div>
      <div className='relative w-fit mx-auto lg:mx-0 lg:mt-28'>
@@ -61,12 +58,9 @@ const WWLayout = () => {
       <ResponsiveImage 
         src={fan}
         style={styles.fan}
+        alt='fan'
       />
      </div>
-     {/* <ResponsiveImage 
-      src={fan}
-      style={styles.fan}
-     /> */}
     </section>
   )
 }

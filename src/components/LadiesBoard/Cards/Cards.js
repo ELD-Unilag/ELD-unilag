@@ -3,11 +3,12 @@ import Card from './Card'
 import Data from './CardsData'
 
 const Cards = () => {
-  const cards = Data.map((each) => {
+  const cards = Data.map((each, idx) => {
     return <Card 
               model={each.model}
               bg={each.background}
               star={each.star}
+              key={idx}
           />
   })
   return (

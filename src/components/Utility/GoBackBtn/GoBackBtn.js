@@ -11,6 +11,7 @@ const GoBackBtn = () => {
     <ResponsiveImage 
       src={Btn}
       style={styles.img}
+      alt='backIcon'
     />
    </div>
   )

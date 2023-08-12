@@ -7,6 +7,9 @@ import React from 'react'
 import SlidingImages from './SlidingImages'
 
 const Gallery = () => {
+
+  // spliting images data into 3 array here
+
   return (
    <section className="mt-20 bg-eldBlack w-full h-[647px] lg:h-[1100px] font-satoshi text-white relative overflow-hidden pt-14 lg:mt-24">
     <div className=' w-fit mx-auto relative'>
@@ -14,6 +17,7 @@ const Gallery = () => {
      <ResponsiveImage 
       src={smallStar}
       style={styles.smallStar}
+      alt='smallstar'
      />
     </div>
     <div className='mt-3.5 w-fit mx-auto relative'>
@@ -23,11 +27,13 @@ const Gallery = () => {
      <ResponsiveImage 
       src={bigStar}
       style={styles.bigStar}
+      alt='big-star'
      />
     </div>
     <ResponsiveImage 
      src={halfCircle}
      style={styles.halfcircle}
+     alt='halfCircle'
     />
     <div className='mt-[60px] lg:mt-[100px]'>
       <SlidingImages 

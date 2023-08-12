@@ -14,14 +14,17 @@ const Hero = () => {
         <ResponsiveImage  
             src={cloud1}
             style={styles.topcloud}
+            alt='cloud'
         />
         <ResponsiveImage 
             src={cloud1}
             style={styles.topcloud2}
+            alt='cloud'
         />
         <ResponsiveImage 
           src={star}
           style={styles.herostar}
+          alt='star'
         />
       </div>
        <p className='text-center w-full whitespace-normal mx-5 text-xs font-normal lg:text-base lg:max-w-[716px] lg:px-0'>Lorem ipsum dolor sit amet consectetur. Est mattis dignissim consectetur nulla platea. Amet faucibus leo aenean ante in nunc laoreet.</p>
@@ -29,10 +32,12 @@ const Hero = () => {
      <ResponsiveImage 
         src={cloud1}
         style={styles.bottomcloud}
+        alt='cloud'
      />
      <ResponsiveImage 
           src={cloud2}
           style={styles.bottomcloud2}
+          alt='cloud'
      />
     </section>
  

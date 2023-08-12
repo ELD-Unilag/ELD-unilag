@@ -29,6 +29,7 @@ const FlipCards = () => {
       <ResponsiveImage 
        src={Logo}
        style={styles.logo}
+       alt='logo'
       />
      </div>
      <div>

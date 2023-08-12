@@ -17,6 +17,7 @@ const CardInfo = (props) => {
           <ResponsiveImage 
             src={props.star}
             style={styles.cardstar}
+            alt='star'
           />
           <div className={`${styles.cardcontentbox} py-2.5 `}>
             <h3 className=' font-extrabold text-[10px] leading-[10px] lg:text-[12px] lg:leading-[12px]'>Name</h3>

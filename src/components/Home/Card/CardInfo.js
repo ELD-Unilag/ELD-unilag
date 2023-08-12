@@ -1,7 +1,7 @@
 import React from 'react'
 import Back from '../../../../public/images/homeImages/flipcards/Back.png'
 import ResponsiveImage from '@/components/Utility/ResponsiveImage'
-import globalStyles from './flipCards.module.css'
+import styles from './flipCards.module.css'
 
 const CardInfo = ({bg}) => {
   return (
@@ -14,7 +14,9 @@ const CardInfo = ({bg}) => {
        </div>
        <ResponsiveImage 
           src={Back}
-          style={globalStyles.back}
+          style={styles.back}
+          alt='back'
+          addon={styles.backExtra}
         />
       </div>
      </div>

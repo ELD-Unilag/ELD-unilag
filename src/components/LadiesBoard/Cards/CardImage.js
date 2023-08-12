@@ -11,6 +11,8 @@ const CardImage = (props) => {
           <ResponsiveImage 
                 style={styles.cardmodel}
                 src={props.model}
+                alt='card-model'
+                addon={styles.modelImg}
           />
         </div>
         <div className='w-full bg-primaryBg absolute left-0 bottom-[50px]  py-1.5 font-grotley font-extrabold pl-[15px] border-y-[0.5px] border-black lg:border-y-[0.7px] lg:pl-[17px] lg:py-[7px] lg:bottom-[58px]'>
@@ -20,11 +22,13 @@ const CardImage = (props) => {
         <ResponsiveImage 
           src={props.star}
           style={styles.cardstar2}
+          alt='star'
         />
         <div className='flex items-end justify-between -mt-0.5 lg:mt-0.5'>
           <ResponsiveImage 
               src={logo}
               style={styles.cardlogo}
+              alt='logo'
           />
           <p className='font-satoshi font-normal text-[9px] leading-[9.4px] lg:text-[11px]'>Click to flip</p>
         </div>
