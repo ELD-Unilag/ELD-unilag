@@ -6,7 +6,7 @@ const form = ({btnName}) => {
 
 
   return (
-    <form className='w-[100%] m-auto md:m-0 font-inter'>
+     <form className='w-[100%] m-auto md:m-0 font-inter'>
         <div className=' w-full grid grid-cols-1 md:grid-cols-3 justify-items-start gap-6 mt-7 mb-10'>
             <div className='w-full md:w-[90%]'>
                 <label className={`${label}`}>
