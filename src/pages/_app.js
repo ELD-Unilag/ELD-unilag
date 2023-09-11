@@ -1,6 +1,6 @@
 import '@/styles/globals.css'
-import Nav from '../components/Header/nav'
-import Footer from '@/components/Footer/footer'
+import Nav from '@/components/Layout/Header/nav'
+import Footer from '@/components/Layout/Footer/footer'
 import { useRouter } from 'next/router'
 
 

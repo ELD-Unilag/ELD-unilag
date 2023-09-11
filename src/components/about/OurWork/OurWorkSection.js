@@ -27,7 +27,7 @@ const OurWorkSection = () => {
   return (
     <div className='py-10 px-[20px] h-max pb-[250px] md:px-[50px] lg:px-[100px] xl:px-[150px] relative'>
         <div className='w-[90%] lg:w-[80%] m-auto items-center text-center pb-[50px] md:pb-[80] lg:pb-[120px]'>
-            <h2 className='text-4xl font-satoshi pb-4 md:pb-8 font-bold'>
+            <h2 className='text-[2.1875rem] font-satoshi pb-4 md:pb-8 font-bold'>
                 Our Work
             </h2>
             <p className='ourWorkText text-xs lg:text-base'>Lörem ipsum nade dening lenir yrat, att tiplant, att gigavönat rugon: hexaning kakåra plall des, dyslogi jide ifall esiren. Fav ev i spelabelt äs, sitskate</p>

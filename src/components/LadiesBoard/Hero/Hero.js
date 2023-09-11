@@ -10,7 +10,7 @@ const Hero = () => {
     <section className='bg-primaryBg h-64 w-full border-b-2 border-barBg relative overflow-x-hidden whitespace-nowrap lg:h-[350px]'>
      <div className="flex h-full flex-col items-center justify-center text-white font-satoshi">
       <div className='relative w-fit'>
-        <h2 className='font-bold text-4xl mb-2.5 lg:text-7xl'>Ladies Board</h2>
+        <h2 className='font-bold text-[2.5rem] mb-2.5 lg:text-7xl'>Ladies Board</h2>
         <ResponsiveImage  
             src={cloud1}
             style={styles.topcloud}
@@ -27,7 +27,7 @@ const Hero = () => {
           alt='star'
         />
       </div>
-       <p className='text-center w-full whitespace-normal mx-5 text-xs font-normal lg:text-base lg:max-w-[716px] lg:px-0'>Lorem ipsum dolor sit amet consectetur. Est mattis dignissim consectetur nulla platea. Amet faucibus leo aenean ante in nunc laoreet.</p>
+       <p className='text-center w-full whitespace-normal px-5 text-xs font-normal lg:text-base lg:max-w-[716px] lg:px-0'>Lorem ipsum dolor sit amet consectetur. Est mattis dignissim consectetur nulla platea. Amet faucibus leo aenean ante in nunc laoreet.</p>
      </div>
      <ResponsiveImage 
         src={cloud1}

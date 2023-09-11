@@ -15,7 +15,7 @@ const Hero = () => {
        <div className='flex lg:max-w-[80%] lg:mx-auto'>
         <div className='flex-grow mt-11 lg:mt-[70px] max-w-[50%] lg:max-w-[60%]'>
           <div className='w-fit  relative'>
-          <h2 className='text-4xl lg:text-[65px] font-bold'>About Us</h2>
+          <h2 className='text-4xl sm:text-[2.5rem] lg:text-[65px] font-bold'>About Us</h2>
           <ResponsiveImage 
             src={Qoute}
             style={styles.qoute}
