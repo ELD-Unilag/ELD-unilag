@@ -84,7 +84,7 @@ const onTouchEnd = () => {
   return (
     <section className='px-5 mt-[9.14rem] font-satoshi relative lg:px-0 lg:max-w-[80%] lg:mx-auto'>
      <div className='relative w-fit mx-auto lg:w-full'>
-      <h3 className='text-[2.1875rem] font-bold text-eldBlack lg:text-center lg:text-5xl'>Our Core Values</h3>
+      <h3 className='sectionHeader lg:text-center '>Our Core Values</h3>
       <ResponsiveImage 
        src={BlackStar}
        style={styles.blackstar}

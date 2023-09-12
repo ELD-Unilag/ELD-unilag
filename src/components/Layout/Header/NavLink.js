@@ -2,6 +2,7 @@ import React from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
+import styles from './header.module.css'
 
 const NavLink = (props) => {
  const router = useRouter()
@@ -31,7 +32,7 @@ const NavLink = (props) => {
  }
   return (
    <Link href={props.routeName} onClick={toggleMenu} >
-    <li className={`menuItems ${router.pathname === props.routeName ? 'menuActive' : 'menuHover'}`}>{props.name}
+    <li className={`${styles.menuItems} ${router.pathname === props.routeName ? styles.menuActive : styles.menuHover}`}>{props.name}
     </li>
    </Link>
   )

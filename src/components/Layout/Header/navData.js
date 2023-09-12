@@ -12,6 +12,10 @@ const Data = [
    routeName: '/donations'
  },
  {
+   name: 'Activities',
+   routeName: '/activities'
+ },
+ {
    name: 'Resources',
    routeName: '/resources'
  },

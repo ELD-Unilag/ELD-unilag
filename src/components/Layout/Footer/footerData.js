@@ -4,7 +4,6 @@ import Twitter from '../../../../public/images/footerImages/twitterIcon.png'
 import Linkedin from '../../../../public/images/footerImages/LinkedinIcon.png'
 
 
-
 export const socialLinks =[
    {
      social:"Instagram",

@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const HomeWCWLeftContent = () => {
   return (
-    <div className='flex-1 w-full h-full py-20 md:py-0 pl-10 lg:pl-[15%]'>
+    <div className=' flex-1 w-full h-full py-20 md:py-0 pl-10 lg:pl-[15%]'>
         <div className='flex items-center mb-16'>
             <h2 className='text-5xl font-bold font-satoshi pr-7'>W.C.W</h2>
             <Image width={50} height={50} src="/images/homeImages/Books.svg" alt='books svg'/>
