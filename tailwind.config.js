@@ -51,8 +51,8 @@ module.exports = {
         valuesYellow: '#EEC21B',
       },
       fontFamily: {
-        grotley: ["Grotley", "sans-serif"],
-        satoshi: ["Satoshi", "sans-serif"],
+        grotley: ['var(--font-Grotely)'],
+        satoshi: ['var(--font-satoshi)'],
         inter:   ["Inter", "sans-serif"]
       },
       clipPath: {

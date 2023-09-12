@@ -4,6 +4,7 @@ import DeletePicBox from '@/components/Utility/DeleteComponent.js/DeletePicBox'
 import styles from '@/components/Utility/DeleteComponent.js/deletebox.module.css'
 
 const Layout = () => {
+
   return (
     <section className=''>
      <h3 className={`${globalStyles.header}`}>Delete Pictures</h3>
