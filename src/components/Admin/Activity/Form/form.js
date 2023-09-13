@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {smallInput,btn, label, errorMessage, errorBorder } from '@/components/Admin/adminGlobalstyles.module.css'
+import {smallInput,btn, label, errorBorder } from '@/components/Admin/adminGlobalstyles.module.css'
 import UploadBtn from '@/components/Utility/AdminUtilities/UploadBtn'
 import { useFormik } from 'formik'
 import * as yup from "yup"
@@ -23,7 +23,7 @@ const form = ({btnName}) => {
         time:yup.string().required('This field is required'),
         image:yup
               .mixed()
-              .required('This field is required')
+              .required('Please add an Image')
               .test("is-valid-type", "Not a valid image type",
                 value => isValidFileType(value && value.name.toLowerCase(), "image")
               )
@@ -42,11 +42,11 @@ const form = ({btnName}) => {
         onSubmit: (values, { resetForm }) => {
             setLoading(true)
             console.log(values)
-        }
+        },
+        validateOnChange: false
     })
 
     function handleImageChange (event){
-        console.log(event)
         formik.setFieldValue("image", event.target.files[0])
     }
 
@@ -80,7 +80,7 @@ const form = ({btnName}) => {
         <div className='mb-8 w-full'>
           <label className={`${label}`}>
             Summary/Report of the activity
-            <textarea name='summary' onChange={formik.handleChange} value={formik.values.summary} className={`${formik.errors.summary ? `${errorBorder}` : '' }  w-full md:w-[94%] border border-black rounded-lg mt-1  `} cols="30" rows="10" ></textarea>
+            <textarea name='summary' onChange={formik.handleChange} value={formik.values.summary} className={`${formik.errors.summary ? `${errorBorder}` : '' }  w-full md:w-[94%] border border-black p-5 rounded-lg mt-1  `} cols="30" rows="10" ></textarea>
             { formik.errors.summary && <ErrorMessage message={formik.errors.summary} /> }
           </label>  
         </div>
