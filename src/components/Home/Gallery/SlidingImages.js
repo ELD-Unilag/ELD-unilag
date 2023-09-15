@@ -8,8 +8,8 @@ import React from 'react'
 
 const SlidingImages = (props) => {
   return (
-    <div className='relative w-full h-[105px] lg:h-[215px] flex whitespace-nowrap transition-all duration-1000 ease-linear mb-5'>
-     <div className={`absolute left-0 flex lg:hover:pause  ${props.animateStyle}`}>
+    <div className='w-full h-[105px] lg:h-[215px] flex whitespace-nowrap transition-all duration-1000 ease-linear mb-5'>
+     <div className={`flex lg:hover:pause  ${props.animateStyle}`}>
       <div className='flex  w-full '>
        <ResponsiveImage 
         src={image1}

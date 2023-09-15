@@ -34,7 +34,7 @@ const FooterLeftContent = () => {
             </form>
             <button type='submit'>
               <div className='relative w-[65px] h-11'>
-                <Image fill={true} alt='submit' className='object-fill cursor-pointer' src="/images/footerImages/send.png"/>
+                <Image fill={true} alt='submit' className='object-fill cursor-pointer' src="/images/footerImages/Send.png"/>
               </div>
             </button>
           </div>
