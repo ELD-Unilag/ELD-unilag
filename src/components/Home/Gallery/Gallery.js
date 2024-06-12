@@ -13,7 +13,7 @@ const Gallery = () => {
   return (
    <section className="mt-20 bg-eldBlack w-full h-[647px] lg:h-[1100px] font-satoshi text-white relative overflow-hidden pt-14 lg:mt-24">
     <div className=' w-fit mx-auto relative'>
-     <h3 className='font-bold font-satoshi text-4xl text-center lg:text-5xl'>Our Gallery</h3>
+     <h3 className='sectionHeader text-white font-satoshi text-center'>Our Gallery</h3>
      <ResponsiveImage 
       src={smallStar}
       style={styles.smallStar}

@@ -16,27 +16,33 @@ const ComingSoon = () => {
           <ResponsiveImage 
             src={icon1}
             style={styles.icon1}
+            alt='qoute'
           />
           <ResponsiveImage 
             src={icon2}
             style={styles.icon2}
+            alt='spiral'
           />
           <ResponsiveImage 
             src={cloud1}
             style={styles.topcloud}
+            alt='cloud'
           />
           <ResponsiveImage 
             src={cloud1}
             style={styles.topcloud2}
+            alt='cloud'
           />
         </div>
         <ResponsiveImage 
           src={cloud1}
           style={styles.bottomcloud}
+          alt='cloud'
         />
         <ResponsiveImage 
           src={cloud2}
           style={styles.bottomcloud2}
+          alt='cloud'
         />
       </div>
     </section>

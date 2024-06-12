@@ -20,8 +20,8 @@ const OurWorkSlider = () => {
   return (
     <div className=''>
         <Slider {...settings}>
-            {ourProgrammes.map((item) => (
-                <OurWorkCard item = {item} />
+            {ourProgrammes.map((item, id) => (
+                <OurWorkCard item = {item} key={id} />
             ))}
         </Slider>
     </div>

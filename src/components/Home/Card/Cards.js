@@ -23,7 +23,7 @@ const FlipCards = () => {
     <section className='mt-10 flex-col items-center mx-5 text-eldBlack font-satoshi  md:w-[90%] md:mx-auto lg:w-fit'>
      <div className='flex justify-between items-center'>
       <div className='flex items-center gap-2.5'>
-       <h3 className='text-4xl lg:text-5xl font-bold'>Flip</h3>
+       <h3 className='sectionHeader font-bold'>Flip</h3>
        <div className=' w-[135px] h-9  lg:w-[162px] lg:h-[43px] flex items-center justify-center text-white text-xs lg:text-sm font-medium tracking-[2.4px] uppercase bg-primaryBg border border-eldBlack rounded-[100px] -rotate-2'>The cards</div>
       </div>
       <ResponsiveImage 

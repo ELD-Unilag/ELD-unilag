@@ -19,3 +19,12 @@
  .label{
   @apply font-medium;
  }
+ .noItems{
+  @apply font-grotley mt-8 font-bold text-5xl text-eldPink;
+ }
+.errorBorder{
+ @apply !border-red-500;
+}
+.errorMessage{
+ @apply text-red-500 mt-[0.5rem] text-xs;
+}

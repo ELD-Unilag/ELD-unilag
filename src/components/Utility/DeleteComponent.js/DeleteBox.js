@@ -3,13 +3,13 @@ import styles from './deletebox.module.css'
 import ResponsiveImage from '../ResponsiveImage'
 import DeleteIcon from '../../../../public/images/admin/deleteicon.svg'
 
-const DeleteBox = () => {
+const DeleteBox = ({name, idx, handleDelete}) => {
   return (
     <div className='flex items-center mb-5 gap-9'>
      <div className={`${styles.box}`}>
-      <h3 className='text-center'>Awards and Dinner Night</h3>
+      <h3 className='text-center'>{name}</h3>
      </div>
-     <div className='w-fit h-fit'>
+     <div className='w-fit h-fit' onClick={() => handleDelete(idx)}>
       <ResponsiveImage 
        src={DeleteIcon}
        style={styles.deleteIcon}

@@ -1,0 +1,3 @@
+.crown{
+@apply absolute w-[3.91894rem] h-10 bottom-[2.44rem] right-[6.96rem] md:bottom-0 md:-right-[calc(2.5rem+3.91894rem)] lg:h-[4rem] lg:w-[6rem] lg:-right-[8.5rem] ;
+}

@@ -51,8 +51,8 @@ module.exports = {
         valuesYellow: '#EEC21B',
       },
       fontFamily: {
-        grotley: ["Grotley", "sans-serif"],
-        satoshi: ["Satoshi", "sans-serif"],
+        grotley: ['var(--font-Grotely)'],
+        satoshi: ['var(--font-satoshi)'],
         inter:   ["Inter", "sans-serif"]
       },
       clipPath: {
@@ -90,7 +90,8 @@ module.exports = {
         'aboutDesktopBg' : "url('/images/aboutImages/hero/aboutdesktopBg.png')",
         'illustrateBg1': "url('/images/aboutImages/wwsection/illustrateBg1.png')",
         'illustrateBg2': "url('/images/aboutImages/wwsection/illustrateBg2.png')",
-        "homeCardNoise" : "url('/images/homeImages/flipcards/noise.png')"
+        "homeCardNoise" : "url('/images/homeImages/flipcards/noise.png')",
+        'menuBar': "url('/images/Barbg.png')"
       },
       boxShadow: {
         'box': '0px 3px 0px 0px #111111',
